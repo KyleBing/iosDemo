@@ -17,7 +17,6 @@ class AnimationDymanicVC: UIViewController {
     
     func createBallView() -> UIView {
         let ballView = UIView(frame: CGRect(origin: .zero, size: CGSize(width: 50, height: 50)))
-        ballView.
         return ballView
     }
 
