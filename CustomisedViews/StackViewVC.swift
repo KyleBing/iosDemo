@@ -1,5 +1,5 @@
 //
-//  DiyVC.swift
+//  StackViewVC.swift
 //  CustomisedViews
 //
 //  Created by Kyle on 2017/6/14.
@@ -9,7 +9,7 @@
 import UIKit
 import UserNotifications
 
-class DiyVC: UIViewController {
+class StackViewVC: UIViewController {
 
     @IBOutlet weak var contentStackView: UIStackView!
     

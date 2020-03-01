@@ -16,7 +16,7 @@
 		2772138A240B490500D7BA6B /* AnimationDymanicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27721389240B490500D7BA6B /* AnimationDymanicVC.swift */; };
 		27734D651FC4194800C34349 /* CustomisedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27734D641FC4194800C34349 /* CustomisedVC.swift */; };
 		27734D671FC41F3D00C34349 /* WindowViewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27734D661FC41F3D00C34349 /* WindowViewsVC.swift */; };
-		277602341EF7CD8400E708FA /* UNNotificationCenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277602331EF7CD8400E708FA /* UNNotificationCenterVC.swift */; };
+		277602341EF7CD8400E708FA /* UserNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277602331EF7CD8400E708FA /* UserNotificationVC.swift */; };
 		2776F5F01F222A2C00562EF2 /* NavigationBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2776F5EF1F222A2C00562EF2 /* NavigationBarVC.swift */; };
 		278F08B2240AB3CA005DF5CC /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278F08B1240AB3CA005DF5CC /* Colors.swift */; };
 		279F03931EDC69EC0014B3B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F03921EDC69EC0014B3B3 /* AppDelegate.swift */; };
@@ -25,7 +25,7 @@
 		279F03A71EDC6BB50014B3B3 /* HomeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F03A61EDC6BB50014B3B3 /* HomeTableVC.swift */; };
 		279F03AB1EDC6CEF0014B3B3 /* RoundedRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F03AA1EDC6CEF0014B3B3 /* RoundedRectView.swift */; };
 		27B7BFF91F3F1E6F00ABC769 /* BannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B7BFF81F3F1E6F00ABC769 /* BannerVC.swift */; };
-		27BCBEC91EF11E3E00C699F7 /* DiyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BCBEC81EF11E3E00C699F7 /* DiyVC.swift */; };
+		27BCBEC91EF11E3E00C699F7 /* StackViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BCBEC81EF11E3E00C699F7 /* StackViewVC.swift */; };
 		27CBFD321EFE189700188467 /* PageVCInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CBFD311EFE189700188467 /* PageVCInside.swift */; };
 		27DE21C21EEA69090000660A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DE21C11EEA69090000660A /* CollectionViewController.swift */; };
 		27EA44DB1F5FF74D008A25A9 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EA44DA1F5FF74D008A25A9 /* WebVC.swift */; };
@@ -43,7 +43,7 @@
 		27721389240B490500D7BA6B /* AnimationDymanicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDymanicVC.swift; sourceTree = "<group>"; };
 		27734D641FC4194800C34349 /* CustomisedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomisedVC.swift; sourceTree = "<group>"; };
 		27734D661FC41F3D00C34349 /* WindowViewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowViewsVC.swift; sourceTree = "<group>"; };
-		277602331EF7CD8400E708FA /* UNNotificationCenterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNNotificationCenterVC.swift; sourceTree = "<group>"; };
+		277602331EF7CD8400E708FA /* UserNotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotificationVC.swift; sourceTree = "<group>"; };
 		2776F5EF1F222A2C00562EF2 /* NavigationBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarVC.swift; sourceTree = "<group>"; };
 		278F08B1240AB3CA005DF5CC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		279F038F1EDC69EC0014B3B3 /* CustomisedViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomisedViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +54,7 @@
 		279F03A61EDC6BB50014B3B3 /* HomeTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableVC.swift; path = ../HomeTableVC.swift; sourceTree = "<group>"; };
 		279F03AA1EDC6CEF0014B3B3 /* RoundedRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectView.swift; sourceTree = "<group>"; };
 		27B7BFF81F3F1E6F00ABC769 /* BannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
-		27BCBEC81EF11E3E00C699F7 /* DiyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyVC.swift; sourceTree = "<group>"; };
+		27BCBEC81EF11E3E00C699F7 /* StackViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewVC.swift; sourceTree = "<group>"; };
 		27C0235D240B86E5000D3E7E /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27CBFD311EFE189700188467 /* PageVCInside.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVCInside.swift; sourceTree = "<group>"; };
 		27DE21C11EEA69090000660A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = ../CollectionViewController.swift; sourceTree = "<group>"; };
@@ -125,8 +125,8 @@
 		27CBFD2E1EFE048400188467 /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
-				27CBFD311EFE189700188467 /* PageVCInside.swift */,
 				279F03A61EDC6BB50014B3B3 /* HomeTableVC.swift */,
+				27CBFD311EFE189700188467 /* PageVCInside.swift */,
 				27734D641FC4194800C34349 /* CustomisedVC.swift */,
 				27734D661FC41F3D00C34349 /* WindowViewsVC.swift */,
 				2732EED41FBE822C001D1492 /* MapVC.swift */,
@@ -135,8 +135,8 @@
 				2776F5EF1F222A2C00562EF2 /* NavigationBarVC.swift */,
 				270B8A111EF8043300053FC9 /* PageViewCell.swift */,
 				27DE21C11EEA69090000660A /* CollectionViewController.swift */,
-				27BCBEC81EF11E3E00C699F7 /* DiyVC.swift */,
-				277602331EF7CD8400E708FA /* UNNotificationCenterVC.swift */,
+				27BCBEC81EF11E3E00C699F7 /* StackViewVC.swift */,
+				277602331EF7CD8400E708FA /* UserNotificationVC.swift */,
 				270B8A0F1EF7F88200053FC9 /* PageVCViewController.swift */,
 				279F03AA1EDC6CEF0014B3B3 /* RoundedRectView.swift */,
 				27F49BB21EFF5D2300395FAB /* HealthVC.swift */,
@@ -234,7 +234,7 @@
 				27CBFD321EFE189700188467 /* PageVCInside.swift in Sources */,
 				279F03A71EDC6BB50014B3B3 /* HomeTableVC.swift in Sources */,
 				279F03AB1EDC6CEF0014B3B3 /* RoundedRectView.swift in Sources */,
-				27BCBEC91EF11E3E00C699F7 /* DiyVC.swift in Sources */,
+				27BCBEC91EF11E3E00C699F7 /* StackViewVC.swift in Sources */,
 				270A71AF1FBA756000E0BB01 /* ButtonStageVC.swift in Sources */,
 				279F03931EDC69EC0014B3B3 /* AppDelegate.swift in Sources */,
 				27DE21C21EEA69090000660A /* CollectionViewController.swift in Sources */,
@@ -249,7 +249,7 @@
 				270B8A101EF7F88200053FC9 /* PageVCViewController.swift in Sources */,
 				27EA44DB1F5FF74D008A25A9 /* WebVC.swift in Sources */,
 				2732EED51FBE822C001D1492 /* MapVC.swift in Sources */,
-				277602341EF7CD8400E708FA /* UNNotificationCenterVC.swift in Sources */,
+				277602341EF7CD8400E708FA /* UserNotificationVC.swift in Sources */,
 				2776F5F01F222A2C00562EF2 /* NavigationBarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

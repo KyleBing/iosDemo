@@ -167,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="2496.8000000000002" y="362.96851574212894"/>
         </scene>
-        <!--Notification CenterVC-->
+        <!--User NotificationVC-->
         <scene sceneID="Epv-2m-rwk">
             <objects>
-                <viewController storyboardIdentifier="UNNotificationCenter" id="j8d-Qv-Yxn" customClass="UNNotificationCenterVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserNotification" id="j8d-Qv-Yxn" customClass="UserNotificationVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Otr-fK-kzn"/>
                         <viewControllerLayoutGuide type="bottom" id="Qfa-ry-oeh"/>
@@ -351,10 +351,10 @@
             </objects>
             <point key="canvasLocation" x="3430" y="3289"/>
         </scene>
-        <!--DiyVC-->
+        <!--Stack ViewVC-->
         <scene sceneID="yBA-In-s0Q">
             <objects>
-                <viewController storyboardIdentifier="StackView" id="0RH-Je-ggi" customClass="DiyVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StackView" id="0RH-Je-ggi" customClass="StackViewVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BbX-X9-bR4"/>
                         <viewControllerLayoutGuide type="bottom" id="gP6-Ts-Kfa"/>

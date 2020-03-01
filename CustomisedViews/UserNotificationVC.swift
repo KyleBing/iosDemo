@@ -1,5 +1,5 @@
 //
-//  UNNotificationCenterVC.swift
+//  UserNotificationVC.swift
 //  CustomisedViews
 //
 //  Created by Kyle on 2017/6/19.
@@ -9,7 +9,7 @@
 import UIKit
 import UserNotifications
 
-class UNNotificationCenterVC: UIViewController, UNUserNotificationCenterDelegate {
+class UserNotificationVC: UIViewController, UNUserNotificationCenterDelegate {
 
     @IBOutlet weak var displayTextView: UITextView!
     

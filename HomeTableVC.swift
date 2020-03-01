@@ -10,23 +10,21 @@ import UIKit
 
 class HomeTableVC: UITableViewController {
     let list = [
-        (name: "Animation",                 comment: "",                    identifier: "Animation"),
-        (name: "Animcation Dynamic",        comment: "",                    identifier: "AnimationDynamic"),
-        (name: "Button Stage",              comment: "",                    identifier: "ButtonStage"),
-        (name: "Web VC",                    comment: "Web View Controller", identifier: "WebVC"),
-        (name: "Banner",                    comment: "Collection View",     identifier: "BannerVC"),
-        (name: "Navigation Bar",            comment: "",                    identifier: "NavigationBar"),
-        (name: "Rounded Rect",              comment: "",                    identifier: "RoundedRect"),
-        (name: "Collection View",           comment: "",                    identifier: "CollectionView"),
-        (name: "Stack View",                comment: "",                    identifier: "StackView"),
-        (name: "UNNotification Center",     comment: "",                    identifier: "UNNotificationCenter"),
-        (name: "Page View Controller",      comment: "",                    identifier: "PageViewController"),
-        (name: "Page View Inside",          comment: "",                    identifier: "PageViewInside"),
-        (name: "Health Infos",              comment: "",                    identifier: "HealthInfos"),
-        (name: "Mapkit",                    comment: "Gaode Map UNFINISHED",identifier: "MapVC"),
-        (name: "Window Views",              comment: "" ,                   identifier: "Customised View"),
-
-
+        (title: "Animation",                 identifier: "Animation",        subtitle: "basic"),
+        (title: "Animcation Dynamic",        identifier: "AnimationDynamic", subtitle: "dynamic"),
+        (title: "Button Stage",              identifier: "ButtonStage",      subtitle: ""),
+        (title: "Web VC",                    identifier: "WKWebview",        subtitle: "Web View Controller"),
+        (title: "Banner",                    identifier: "BannerVC",         subtitle: "Collection View"),
+        (title: "Navigation Bar",            identifier: "NavigationBar",    subtitle: ""),
+        (title: "Rounded Rect",              identifier: "RoundedRect",      subtitle: ""),
+        (title: "Collection View",           identifier: "CollectionView",   subtitle: ""),
+        (title: "Stack View",                identifier: "StackView",        subtitle: ""),
+        (title: "User Notification",         identifier: "UserNotification", subtitle: ""),
+        (title: "Page View Controller",      identifier: "PageViewController", subtitle: ""),
+        (title: "Page View Inside",          identifier: "PageViewInside",   subtitle: ""),
+        (title: "Health Infos",              identifier: "HealthInfos",      subtitle: "HealthKit"),
+        (title: "Mapkit",                    identifier: "MapVC",            subtitle: "Gaode Map UNFINISHED"),
+        (title: "Window Views",              identifier: "Customised View",  subtitle: "" ),
     ]
     
     override func viewDidLoad() {
@@ -49,8 +47,8 @@ class HomeTableVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell")!
-        cell.textLabel?.text = list[indexPath.row].name
-        cell.detailTextLabel?.text = list[indexPath.row].comment
+        cell.textLabel?.text = list[indexPath.row].title
+        cell.detailTextLabel?.text = list[indexPath.row].subtitle
         return cell
     }
     
