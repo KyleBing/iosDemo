@@ -19,30 +19,24 @@ class AnimationDymanicVC: UIViewController {
         ballView.center = CGPoint(x: view.bounds.midX, y: 30)
         animator.updateItem(usingCurrentState: ballView) // 当旋转屏幕的时候，更新元素位置
     }
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.addAnimation()
-        
         let tapGuesture = UITapGestureRecognizer(target: self, action: #selector(pushBall))
         self.view.addGestureRecognizer(tapGuesture)
     }
     
-    
     @objc func pushBall() {
         let ballView = view.viewWithTag(100)!
         let pushBehavior = UIPushBehavior(items: [ballView], mode: .instantaneous)
-        pushBehavior.pushDirection = CGVector(dx: 1, dy: -1)
-//        pushBehavior.angle = CGFloat.pi / 3
-        pushBehavior.magnitude = 10
+        pushBehavior.pushDirection = CGVector(dx: CGFloat.random(in: -0.5...0.5), dy: -1)
+        pushBehavior.magnitude = 5
         pushBehavior.action = { [unowned pushBehavior] in // delete after fire it
             pushBehavior.dynamicAnimator?.removeBehavior(pushBehavior)
         }
         animator.addBehavior(pushBehavior)
         pushBehavior.addItem(ballView)
     }
-    
-    
     
     func addAnimation() {
         let ballView = BallView(frame: CGRect(origin: CGPoint(x: view.bounds.midX, y: 0), size: CGSize(width: 60, height: 60)))
@@ -79,15 +73,13 @@ class AnimationDymanicVC: UIViewController {
 
 class BallView: UIView {
     override func draw(_ rect: CGRect) {
+        let lineWidth: CGFloat = 1
+        let rect = CGRect(x: lineWidth, y: lineWidth, width: rect.maxX - 2 * lineWidth, height: rect.maxY - 2 * lineWidth)
         let path = UIBezierPath(ovalIn: rect)
-        path.lineWidth = 1
+        path.lineWidth = lineWidth
         UIColor.orange.setFill()
         UIColor.yellow.setStroke()
         path.stroke()
         path.fill()
-    }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
     }
 }

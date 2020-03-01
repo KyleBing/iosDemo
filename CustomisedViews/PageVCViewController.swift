@@ -15,25 +15,21 @@ class PageVCViewController: UIPageViewController, UIPageViewControllerDataSource
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dataSource = self
+        delegate = self
         
         for i in 1...count {
             let dest = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "PageVCCell")
             (dest.view.viewWithTag(100) as? UILabel)?.text = i.description
-            
             vcCells.append(dest)
         }
         
-
-        print(self.transitionStyle)
-        print(self.navigationOrientation)
+        let animationVC = AnimationDymanicVC()
+        let viewAnimationVC = AnimationVC()
+        vcCells.insert(viewAnimationVC, at: 0)
+        vcCells.insert(animationVC, at: 0)
         
-        view.backgroundColor = UIColor.lightGray
-
-        dataSource = self
-        delegate = self
-        
-        
-        
+        view.backgroundColor = UIColor.gray
         setViewControllers([vcCells[0]], direction: .reverse, animated: true, completion: nil)
     }
     

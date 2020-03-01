@@ -67,6 +67,4 @@ class RoundedRectView: UIView {
         super.init(coder: coder)
         self.backgroundColor = UIColor.clear
     }
- 
-
 }
