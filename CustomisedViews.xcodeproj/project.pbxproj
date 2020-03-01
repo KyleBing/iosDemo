@@ -50,7 +50,6 @@
 		279F03921EDC69EC0014B3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		279F03971EDC69EC0014B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		279F03991EDC69EC0014B3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		279F039C1EDC69EC0014B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279F039E1EDC69EC0014B3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279F03A61EDC6BB50014B3B3 /* HomeTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeTableVC.swift; path = ../HomeTableVC.swift; sourceTree = "<group>"; };
 		279F03AA1EDC6CEF0014B3B3 /* RoundedRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectView.swift; sourceTree = "<group>"; };
@@ -95,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				27C0235D240B86E5000D3E7E /* Test.playground */,
-				278F08B0240AB3AA005DF5CC /* Config Files */,
 				279F03961EDC69EC0014B3B3 /* Main.storyboard */,
+				278F08B0240AB3AA005DF5CC /* Config Files */,
 				27CBFD2E1EFE048400188467 /* SubVC */,
 				279F03911EDC69EC0014B3B3 /* CustomisedViews */,
 				279F03901EDC69EC0014B3B3 /* Products */,
@@ -116,10 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				274ACF221EFF5C9200F9B968 /* CustomisedViews.entitlements */,
-				27CBFD311EFE189700188467 /* PageVCInside.swift */,
 				279F03921EDC69EC0014B3B3 /* AppDelegate.swift */,
 				279F03991EDC69EC0014B3B3 /* Assets.xcassets */,
-				279F039B1EDC69EC0014B3B3 /* LaunchScreen.storyboard */,
 				279F039E1EDC69EC0014B3B3 /* Info.plist */,
 			);
 			path = CustomisedViews;
@@ -128,6 +125,7 @@
 		27CBFD2E1EFE048400188467 /* SubVC */ = {
 			isa = PBXGroup;
 			children = (
+				27CBFD311EFE189700188467 /* PageVCInside.swift */,
 				279F03A61EDC6BB50014B3B3 /* HomeTableVC.swift */,
 				27734D641FC4194800C34349 /* CustomisedVC.swift */,
 				27734D661FC41F3D00C34349 /* WindowViewsVC.swift */,
@@ -265,14 +263,6 @@
 				279F03971EDC69EC0014B3B3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		279F039B1EDC69EC0014B3B3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279F039C1EDC69EC0014B3B3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
