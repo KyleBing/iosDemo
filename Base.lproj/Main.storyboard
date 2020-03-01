@@ -555,10 +555,10 @@
             </objects>
             <point key="canvasLocation" x="-711" y="-165"/>
         </scene>
-        <!--Animcation DymanicVC-->
+        <!--Animation DymanicVC-->
         <scene sceneID="lZD-WT-iWl">
             <objects>
-                <viewController id="ZSr-ix-YBA" customClass="AnimcationDymanicVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimationDynamic" id="ZSr-ix-YBA" customClass="AnimationDymanicVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TiB-hN-vkm"/>
                         <viewControllerLayoutGuide type="bottom" id="g8Z-dS-BkG"/>

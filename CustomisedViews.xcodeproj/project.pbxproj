@@ -56,6 +56,7 @@
 		279F03AA1EDC6CEF0014B3B3 /* RoundedRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectView.swift; sourceTree = "<group>"; };
 		27B7BFF81F3F1E6F00ABC769 /* BannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
 		27BCBEC81EF11E3E00C699F7 /* DiyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiyVC.swift; sourceTree = "<group>"; };
+		27C0235D240B86E5000D3E7E /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27CBFD311EFE189700188467 /* PageVCInside.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVCInside.swift; sourceTree = "<group>"; };
 		27DE21C11EEA69090000660A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = ../CollectionViewController.swift; sourceTree = "<group>"; };
 		27EA44DA1F5FF74D008A25A9 /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebVC.swift; path = ../WebVC.swift; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 		279F03861EDC69EC0014B3B3 = {
 			isa = PBXGroup;
 			children = (
+				27C0235D240B86E5000D3E7E /* Test.playground */,
 				278F08B0240AB3AA005DF5CC /* Config Files */,
 				279F03961EDC69EC0014B3B3 /* Main.storyboard */,
 				27CBFD2E1EFE048400188467 /* SubVC */,
