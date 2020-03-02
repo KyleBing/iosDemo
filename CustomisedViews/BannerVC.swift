@@ -20,7 +20,6 @@ class BannerVC: UIViewController, UICollectionViewDataSource, UICollectionViewDe
         
         collectionView.dataSource = self
         collectionView.delegate = self
-        
         collectionView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: view.frame.height/2)
         
         //  CollectionView Layout

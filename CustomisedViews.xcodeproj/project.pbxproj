@@ -29,6 +29,7 @@
 		27CBFD321EFE189700188467 /* PageVCInside.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CBFD311EFE189700188467 /* PageVCInside.swift */; };
 		27DE21C21EEA69090000660A /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DE21C11EEA69090000660A /* CollectionViewController.swift */; };
 		27EA44DB1F5FF74D008A25A9 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EA44DA1F5FF74D008A25A9 /* WebVC.swift */; };
+		27F2E6F5240C9F16004D7CE0 /* AuthenticationTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F2E6F4240C9F16004D7CE0 /* AuthenticationTableVC.swift */; };
 		27F49BB31EFF5D2300395FAB /* HealthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F49BB21EFF5D2300395FAB /* HealthVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,10 +56,10 @@
 		279F03AA1EDC6CEF0014B3B3 /* RoundedRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedRectView.swift; sourceTree = "<group>"; };
 		27B7BFF81F3F1E6F00ABC769 /* BannerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannerVC.swift; sourceTree = "<group>"; };
 		27BCBEC81EF11E3E00C699F7 /* StackViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewVC.swift; sourceTree = "<group>"; };
-		27C0235D240B86E5000D3E7E /* Test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Test.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27CBFD311EFE189700188467 /* PageVCInside.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageVCInside.swift; sourceTree = "<group>"; };
 		27DE21C11EEA69090000660A /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = ../CollectionViewController.swift; sourceTree = "<group>"; };
 		27EA44DA1F5FF74D008A25A9 /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebVC.swift; path = ../WebVC.swift; sourceTree = "<group>"; };
+		27F2E6F4240C9F16004D7CE0 /* AuthenticationTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTableVC.swift; sourceTree = "<group>"; };
 		27F49BB21EFF5D2300395FAB /* HealthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +94,6 @@
 		279F03861EDC69EC0014B3B3 = {
 			isa = PBXGroup;
 			children = (
-				27C0235D240B86E5000D3E7E /* Test.playground */,
 				279F03961EDC69EC0014B3B3 /* Main.storyboard */,
 				278F08B0240AB3AA005DF5CC /* Config Files */,
 				27CBFD2E1EFE048400188467 /* SubVC */,
@@ -143,6 +143,7 @@
 				2714F94E1F05062F00E94F50 /* AnimationVC.swift */,
 				270A71AE1FBA756000E0BB01 /* ButtonStageVC.swift */,
 				27721389240B490500D7BA6B /* AnimationDymanicVC.swift */,
+				27F2E6F4240C9F16004D7CE0 /* AuthenticationTableVC.swift */,
 			);
 			name = SubVC;
 			path = CustomisedViews;
@@ -238,6 +239,7 @@
 				270A71AF1FBA756000E0BB01 /* ButtonStageVC.swift in Sources */,
 				279F03931EDC69EC0014B3B3 /* AppDelegate.swift in Sources */,
 				27DE21C21EEA69090000660A /* CollectionViewController.swift in Sources */,
+				27F2E6F5240C9F16004D7CE0 /* AuthenticationTableVC.swift in Sources */,
 				27734D671FC41F3D00C34349 /* WindowViewsVC.swift in Sources */,
 				27734D651FC4194800C34349 /* CustomisedVC.swift in Sources */,
 				2772138A240B490500D7BA6B /* AnimationDymanicVC.swift in Sources */,
