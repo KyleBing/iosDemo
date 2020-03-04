@@ -10,6 +10,7 @@ import UIKit
 
 class HomeTableVC: UITableViewController {
     let list = [
+        (title: "URLSession",                identifier: "URLSession",       subtitle: ""),
         (title: "Authentication",            identifier: "Authentication",   subtitle: ""),
         (title: "Animation",                 identifier: "Animation",        subtitle: "basic"),
         (title: "Animcation Dynamic",        identifier: "AnimationDynamic", subtitle: "dynamic"),

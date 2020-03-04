@@ -13,6 +13,8 @@
 		2714F94F1F05062F00E94F50 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2714F94E1F05062F00E94F50 /* AnimationVC.swift */; };
 		2732EED51FBE822C001D1492 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732EED41FBE822C001D1492 /* MapVC.swift */; };
 		274ACF2D1EFF5CC800F9B968 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274ACF2C1EFF5CC800F9B968 /* HealthKit.framework */; };
+		276F1849240CF7220048D9DC /* URLSessionTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F1848240CF7220048D9DC /* URLSessionTableVC.swift */; };
+		276F184C240D13400048D9DC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F184B240D13400048D9DC /* Person.swift */; };
 		2772138A240B490500D7BA6B /* AnimationDymanicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27721389240B490500D7BA6B /* AnimationDymanicVC.swift */; };
 		27734D651FC4194800C34349 /* CustomisedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27734D641FC4194800C34349 /* CustomisedVC.swift */; };
 		27734D671FC41F3D00C34349 /* WindowViewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27734D661FC41F3D00C34349 /* WindowViewsVC.swift */; };
@@ -41,6 +43,8 @@
 		2732EED41FBE822C001D1492 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		274ACF221EFF5C9200F9B968 /* CustomisedViews.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomisedViews.entitlements; sourceTree = "<group>"; };
 		274ACF2C1EFF5CC800F9B968 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		276F1848240CF7220048D9DC /* URLSessionTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionTableVC.swift; sourceTree = "<group>"; };
+		276F184B240D13400048D9DC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		27721389240B490500D7BA6B /* AnimationDymanicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationDymanicVC.swift; sourceTree = "<group>"; };
 		27734D641FC4194800C34349 /* CustomisedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomisedVC.swift; sourceTree = "<group>"; };
 		27734D661FC41F3D00C34349 /* WindowViewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowViewsVC.swift; sourceTree = "<group>"; };
@@ -83,6 +87,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		276F184A240D131B0048D9DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				276F184B240D13400048D9DC /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		278F08B0240AB3AA005DF5CC /* Config Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +108,7 @@
 			children = (
 				279F03961EDC69EC0014B3B3 /* Main.storyboard */,
 				278F08B0240AB3AA005DF5CC /* Config Files */,
+				276F184A240D131B0048D9DC /* Model */,
 				27CBFD2E1EFE048400188467 /* SubVC */,
 				279F03911EDC69EC0014B3B3 /* CustomisedViews */,
 				279F03901EDC69EC0014B3B3 /* Products */,
@@ -144,6 +157,7 @@
 				270A71AE1FBA756000E0BB01 /* ButtonStageVC.swift */,
 				27721389240B490500D7BA6B /* AnimationDymanicVC.swift */,
 				27F2E6F4240C9F16004D7CE0 /* AuthenticationTableVC.swift */,
+				276F1848240CF7220048D9DC /* URLSessionTableVC.swift */,
 			);
 			name = SubVC;
 			path = CustomisedViews;
@@ -232,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276F1849240CF7220048D9DC /* URLSessionTableVC.swift in Sources */,
 				27CBFD321EFE189700188467 /* PageVCInside.swift in Sources */,
 				279F03A71EDC6BB50014B3B3 /* HomeTableVC.swift in Sources */,
 				279F03AB1EDC6CEF0014B3B3 /* RoundedRectView.swift in Sources */,
@@ -242,6 +257,7 @@
 				27F2E6F5240C9F16004D7CE0 /* AuthenticationTableVC.swift in Sources */,
 				27734D671FC41F3D00C34349 /* WindowViewsVC.swift in Sources */,
 				27734D651FC4194800C34349 /* CustomisedVC.swift in Sources */,
+				276F184C240D13400048D9DC /* Person.swift in Sources */,
 				2772138A240B490500D7BA6B /* AnimationDymanicVC.swift in Sources */,
 				2714F94F1F05062F00E94F50 /* AnimationVC.swift in Sources */,
 				27F49BB31EFF5D2300395FAB /* HealthVC.swift in Sources */,

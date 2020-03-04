@@ -44,7 +44,18 @@ class UserNotificationVC: UIViewController, UNUserNotificationCenterDelegate {
                 }
             }
         } else {
-            // Fallback on earlier versions
+            center.requestAuthorization(options: [.alert, .badge, .sound]) { (success, error) in
+                if success {
+                    DispatchQueue.main.async {
+                        self.displayTextView.text = "获取通知权限成功: .alert .badge .sound"
+                    }
+                } else {
+                    DispatchQueue.main.async {
+                        self.displayTextView.text = "！！获取通知权限失败！！"
+                        self.navigationItem.rightBarButtonItems = nil // clear buttons
+                    }
+                }
+            }
         }
     }
     
