@@ -21,7 +21,13 @@ class UIPasteBoardTableVC: UITableViewController {
         self.refreshData()
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "添加内容", style: .plain, target: self, action: #selector(changePasteBoardContent))
         
-        // UserNotification
+        // UserNotification 暂时不生效
+        notificationCenter.addObserver(forName: UIPasteboard.changedNotification,
+                                       object: pasteBoard,
+                                       queue: OperationQueue.main) { (notification) in
+                                        self.refreshData()
+                                        self.tableView.reloadData()
+        }
         
     }
 
