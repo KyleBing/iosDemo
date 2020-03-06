@@ -188,21 +188,3 @@ class UserNotificationVC: UIViewController, UNUserNotificationCenterDelegate {
 }
 
 
-// MARK: - Extension
-
-extension Date {
-    
-    var shortDateString : String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "MM-dd"
-        dateFormatter.locale = Locale(identifier: "zh_CN")
-        return dateFormatter.string(from: self)
-    }
-    
-    var shortTimeString : String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "HH:mm:ss"
-        dateFormatter.locale = Locale(identifier: "zh_CN")
-        return dateFormatter.string(from: self)
-    }
-}

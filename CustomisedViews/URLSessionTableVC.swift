@@ -50,10 +50,9 @@ class URLSessionTableVC: UITableViewController {
                 print(error)
                 return
             }
-            guard let httpResponse = response as? HTTPURLResponse,
-                (200...299).contains(httpResponse.statusCode) else {
-                    print(response)
-                    return
+            guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+                print(response!)
+                return
             }
             if  let mimeType = httpResponse.mimeType, mimeType == "text/html",
                 let data = data
@@ -65,7 +64,6 @@ class URLSessionTableVC: UITableViewController {
                         self.persons = persons
                         self.tableView.reloadData()
                     }
-
                 } catch {
                     print(error)
                 }

@@ -10,6 +10,8 @@ import UIKit
 
 class HomeTableVC: UITableViewController {
     let list = [
+        
+        (title: "UIPasteBoard",                identifier: "UIPasteBoard",       subtitle: ""),
         (title: "URLSession",                identifier: "URLSession",       subtitle: ""),
         (title: "Authentication",            identifier: "Authentication",   subtitle: ""),
         (title: "Animation",                 identifier: "Animation",        subtitle: "basic"),
