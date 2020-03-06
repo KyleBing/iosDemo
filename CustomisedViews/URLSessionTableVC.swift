@@ -46,29 +46,32 @@ class URLSessionTableVC: UITableViewController {
     func fetchNetworkData(from url: URL){
         
         let task = session.dataTask(with: url) { (data, response, error) in
-            if let error = error {
-                print(error)
-                return
-            }
-            guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
-                print(response!)
-                return
-            }
-            if  let mimeType = httpResponse.mimeType, mimeType == "text/html",
-                let data = data
-            {
-                do {
-                    let decoder = JSONDecoder()
-                    let persons = try decoder.decode(Array<Person>.self, from: data)
-                    DispatchQueue.main.async {
-                        self.persons = persons
-                        self.tableView.reloadData()
+            DispatchQueue.main.async {
+                if self.navigationController?.viewControllers.last?.isKind(of: URLSessionTableVC.self) ?? false {
+                    if let error = error {
+                            print(error)
+                            return
+                        }
+                        guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+                            print(response!)
+                            return
+                        }
+                        if  let mimeType = httpResponse.mimeType, mimeType == "text/html",
+                            let data = data
+                        {
+                            do {
+                                let decoder = JSONDecoder()
+                                let persons = try decoder.decode(Array<Person>.self, from: data)
+                                self.persons = persons
+                                self.tableView.reloadData()
+                            } catch {
+                                print(error)
+                            }
+                        }
                     }
-                } catch {
-                    print(error)
                 }
+                
             }
-        }
         task.resume()
     }
 }
