@@ -817,6 +817,42 @@
             </objects>
             <point key="canvasLocation" x="1502" y="-165"/>
         </scene>
+        <!--Login With KeychainVC-->
+        <scene sceneID="cOa-RY-10s">
+            <objects>
+                <viewController storyboardIdentifier="LoginWithKeychain" id="IZK-O3-Kor" customClass="LoginWithKeychainVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="215-A5-VAc"/>
+                        <viewControllerLayoutGuide type="bottom" id="6g3-fl-UAC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yub-BK-M2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gbo-jA-aHH">
+                                <rect key="frame" x="16" y="8" width="343" height="651"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6g3-fl-UAC" firstAttribute="top" secondItem="gbo-jA-aHH" secondAttribute="bottom" constant="8" symbolic="YES" id="0jK-a0-ts2"/>
+                            <constraint firstItem="gbo-jA-aHH" firstAttribute="leading" secondItem="yub-BK-M2X" secondAttribute="leadingMargin" id="CLP-Gr-VpS"/>
+                            <constraint firstItem="gbo-jA-aHH" firstAttribute="top" secondItem="215-A5-VAc" secondAttribute="bottom" constant="8" symbolic="YES" id="kLn-M6-Ksc"/>
+                            <constraint firstItem="gbo-jA-aHH" firstAttribute="trailing" secondItem="yub-BK-M2X" secondAttribute="trailingMargin" id="lJ2-St-JRi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="display" destination="gbo-jA-aHH" id="TiL-SK-apy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hdi-07-Bow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2229.5999999999999" y="-165.06746626686657"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="8fm-hQ-hw6">
             <objects>
