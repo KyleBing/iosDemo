@@ -34,7 +34,7 @@ class UserNotificationVC: UIViewController, UNUserNotificationCenterDelegate {
             center.requestAuthorization(options: [.alert, .badge, .sound, .announcement]) { (success, error) in
                 if success {
                     DispatchQueue.main.async {
-                        self.displayTextView.text = "获取通知权限成功: .alert .badge .sound"
+                        self.displayTextView.text = "获取通知权限成功: .alert .badge .sound .announcement"
                     }
                 } else {
                     DispatchQueue.main.async {

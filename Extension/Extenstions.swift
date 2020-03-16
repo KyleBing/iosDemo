@@ -12,6 +12,13 @@ import Foundation
 
 extension Date {
     
+    var longDateString : String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "YYYY-MM-dd"
+        dateFormatter.locale = Locale(identifier: "zh_CN")
+        return dateFormatter.string(from: self)
+    }
+    
     var shortDateString : String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "MM-dd"
