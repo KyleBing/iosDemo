@@ -17,6 +17,7 @@ class HomeTableVC: UITableViewController {
     
     let listGroups:[HomeListGroup] = [
         HomeListGroup(title: "UIKit", lists: [
+            (title: "ImagePicker",               identifier: "ImagePickerVC",       subtitle: ""),
             (title: "PickerView",                identifier: "PickerViewVC",        subtitle: ""),
             (title: "UIPasteBoard",              identifier: "UIPasteBoard",        subtitle: ""),
             (title: "Animcation Dynamic",        identifier: "AnimationDynamic",    subtitle: "dynamic"),

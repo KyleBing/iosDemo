@@ -10,7 +10,7 @@
         <!--Customized Views-->
         <scene sceneID="WcQ-Uc-Jun">
             <objects>
-                <tableViewController id="36J-0R-ldI" customClass="HomeTableVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="36J-0R-ldI" customClass="HomeTableVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4TG-Pt-DLa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,7 +56,7 @@
         <!--NavigationBar-->
         <scene sceneID="eXr-id-SdU">
             <objects>
-                <viewController storyboardIdentifier="NavigationBar" id="JLd-gx-eEH" userLabel="NavigationBar" customClass="NavigationBarVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NavigationBar" id="JLd-gx-eEH" userLabel="NavigationBar" customClass="NavigationBarVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1AX-L3-0yZ"/>
                         <viewControllerLayoutGuide type="bottom" id="tMF-EQ-Za5"/>
@@ -74,7 +74,7 @@
         <!--Picker ViewVC-->
         <scene sceneID="S3V-K7-80o">
             <objects>
-                <tableViewController storyboardIdentifier="PickerViewVC" id="m3A-ht-1OD" customClass="PickerViewVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="PickerViewVC" id="m3A-ht-1OD" customClass="PickerViewVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dFX-Tb-yvO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -175,7 +175,7 @@
         <!--Rounded Rect-->
         <scene sceneID="CSR-V9-4X3">
             <objects>
-                <viewController storyboardIdentifier="RoundedRect" title="Rounded Rect" id="t3j-KA-pqc" customClass="PopOverVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RoundedRect" title="Rounded Rect" id="t3j-KA-pqc" customClass="PopOverVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nKj-i3-6Tf"/>
                         <viewControllerLayoutGuide type="bottom" id="o2q-US-PoN"/>
@@ -184,7 +184,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="eDH-9U-N8W" userLabel="RoundedRect View" customClass="RoundedRectView" customModule="CustomisedViews" customModuleProvider="target">
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="eDH-9U-N8W" userLabel="RoundedRect View" customClass="RoundedRectView" customModule="iOS_Demo" customModuleProvider="target">
                                 <rect key="frame" x="31.5" y="222.5" width="312.5" height="222"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
@@ -219,7 +219,7 @@
         <!--Collection View Controller-->
         <scene sceneID="cXi-bm-wZq">
             <objects>
-                <collectionViewController storyboardIdentifier="CollectionView" id="RnA-VA-YFT" customClass="CollectionViewController" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController storyboardIdentifier="CollectionView" id="RnA-VA-YFT" customClass="CollectionViewController" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="mYr-zA-gk6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -271,7 +271,7 @@
         <!--User NotificationVC-->
         <scene sceneID="Epv-2m-rwk">
             <objects>
-                <viewController storyboardIdentifier="UserNotification" id="j8d-Qv-Yxn" customClass="UserNotificationVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UserNotification" id="j8d-Qv-Yxn" customClass="UserNotificationVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Otr-fK-kzn"/>
                         <viewControllerLayoutGuide type="bottom" id="Qfa-ry-oeh"/>
@@ -308,7 +308,7 @@
         <!--UIPageVC-->
         <scene sceneID="bmm-IW-0ek">
             <objects>
-                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="1gd-F6-qJ2" customClass="PageVCViewController" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController storyboardIdentifier="PageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="1gd-F6-qJ2" customClass="PageVCViewController" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="UIPageVC" id="KIr-CL-D2t"/>
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zam-Bc-NRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -318,7 +318,7 @@
         <!--PageVC Inside-->
         <scene sceneID="JY5-N0-duy">
             <objects>
-                <viewController storyboardIdentifier="PageViewInside" id="SIf-UI-CX3" customClass="PageVCInside" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PageViewInside" id="SIf-UI-CX3" customClass="PageVCInside" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A2t-YY-3DB"/>
                         <viewControllerLayoutGuide type="bottom" id="zst-Vd-I2Z"/>
@@ -351,7 +351,7 @@
         <!--AnimationVC-->
         <scene sceneID="tEv-gZ-0Wx">
             <objects>
-                <viewController storyboardIdentifier="Animation" id="ePb-es-EAL" customClass="AnimationVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Animation" id="ePb-es-EAL" customClass="AnimationVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Kh4-vh-09X"/>
                         <viewControllerLayoutGuide type="bottom" id="oBB-sz-gIH"/>
@@ -369,7 +369,7 @@
         <!--HealthVC-->
         <scene sceneID="TtP-mT-ZHB">
             <objects>
-                <viewController storyboardIdentifier="HealthInfos" id="dhO-cc-ej5" customClass="HealthVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HealthInfos" id="dhO-cc-ej5" customClass="HealthVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fiN-Fd-lxj"/>
                         <viewControllerLayoutGuide type="bottom" id="Udh-r7-YH4"/>
@@ -422,7 +422,7 @@
         <!--Page View Cell-->
         <scene sceneID="Ew3-cz-duG">
             <objects>
-                <viewController storyboardIdentifier="PageVCCell" id="nMF-Hs-OxN" customClass="PageViewCell" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PageVCCell" id="nMF-Hs-OxN" customClass="PageViewCell" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fcz-o7-672"/>
                         <viewControllerLayoutGuide type="bottom" id="pBt-jw-hm6"/>
@@ -455,7 +455,7 @@
         <!--URL Session TableVC-->
         <scene sceneID="psH-WN-mTN">
             <objects>
-                <tableViewController storyboardIdentifier="URLSession" id="Woe-zD-Afn" customClass="URLSessionTableVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="URLSession" id="Woe-zD-Afn" customClass="URLSessionTableVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hcV-Hd-M6b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -496,10 +496,28 @@
             </objects>
             <point key="canvasLocation" x="1502" y="1316"/>
         </scene>
+        <!--Image PickerVC-->
+        <scene sceneID="FB8-cs-cdc">
+            <objects>
+                <viewController storyboardIdentifier="ImagePickerVC" id="MMM-FY-pfG" customClass="ImagePickerVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2SJ-51-DHb"/>
+                        <viewControllerLayoutGuide type="bottom" id="MF9-h6-Avg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OLe-be-c4E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zfm-lU-RUh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2230" y="1316"/>
+        </scene>
         <!--Paste Board TableVC-->
         <scene sceneID="PMk-qK-FHA">
             <objects>
-                <tableViewController storyboardIdentifier="UIPasteBoard" id="M0B-Uq-rsJ" customClass="UIPasteBoardTableVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="UIPasteBoard" id="M0B-Uq-rsJ" customClass="UIPasteBoardTableVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="IdX-Ve-VSb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -543,7 +561,7 @@
         <!--Stack ViewVC-->
         <scene sceneID="yBA-In-s0Q">
             <objects>
-                <viewController storyboardIdentifier="StackView" id="0RH-Je-ggi" customClass="StackViewVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StackView" id="0RH-Je-ggi" customClass="StackViewVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BbX-X9-bR4"/>
                         <viewControllerLayoutGuide type="bottom" id="gP6-Ts-Kfa"/>
@@ -640,7 +658,7 @@
         <!--BannerVC-->
         <scene sceneID="WCu-J6-m85">
             <objects>
-                <viewController storyboardIdentifier="BannerVC" id="T8s-vm-p6b" customClass="BannerVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BannerVC" id="T8s-vm-p6b" customClass="BannerVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wlO-7S-CE8"/>
                         <viewControllerLayoutGuide type="bottom" id="8id-Ex-HvD"/>
@@ -696,7 +714,7 @@
         <!--WebVC-->
         <scene sceneID="faT-LZ-Idg">
             <objects>
-                <viewController storyboardIdentifier="WebVC" id="lu7-wg-X42" customClass="WebVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WebVC" id="lu7-wg-X42" customClass="WebVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Fl5-lZ-TvN"/>
                         <viewControllerLayoutGuide type="bottom" id="50U-Vj-Ssa"/>
@@ -729,7 +747,7 @@
         <!--Authentication TableVC-->
         <scene sceneID="efS-FA-bQe">
             <objects>
-                <tableViewController storyboardIdentifier="Authentication" id="ndn-FP-nOQ" customClass="AuthenticationTableVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="Authentication" id="ndn-FP-nOQ" customClass="AuthenticationTableVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ihc-yx-4AF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -773,7 +791,7 @@
         <!--Button StageVC-->
         <scene sceneID="hpr-kQ-fCF">
             <objects>
-                <viewController storyboardIdentifier="ButtonStage" id="ywa-Tk-bkg" customClass="ButtonStageVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ButtonStage" id="ywa-Tk-bkg" customClass="ButtonStageVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="q0F-w5-54N"/>
                         <viewControllerLayoutGuide type="bottom" id="czh-Ac-XWw"/>
@@ -791,7 +809,7 @@
         <!--Animation DymanicVC-->
         <scene sceneID="lZD-WT-iWl">
             <objects>
-                <viewController storyboardIdentifier="AnimationDynamic" id="ZSr-ix-YBA" customClass="AnimationDymanicVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnimationDynamic" id="ZSr-ix-YBA" customClass="AnimationDymanicVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TiB-hN-vkm"/>
                         <viewControllerLayoutGuide type="bottom" id="g8Z-dS-BkG"/>
@@ -874,7 +892,7 @@
         <!--Window ViewsVC-->
         <scene sceneID="2qx-vR-3aT">
             <objects>
-                <viewController id="1Wp-p2-wJl" customClass="WindowViewsVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1Wp-p2-wJl" customClass="WindowViewsVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YyU-5O-OaC"/>
                         <viewControllerLayoutGuide type="bottom" id="6kr-RR-SkZ"/>
@@ -921,7 +939,7 @@
         <!--Login With KeychainVC-->
         <scene sceneID="cOa-RY-10s">
             <objects>
-                <viewController storyboardIdentifier="LoginWithKeychain" id="IZK-O3-Kor" customClass="LoginWithKeychainVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginWithKeychain" id="IZK-O3-Kor" customClass="LoginWithKeychainVC" customModule="iOS_Demo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="215-A5-VAc"/>
                         <viewControllerLayoutGuide type="bottom" id="6g3-fl-UAC"/>
