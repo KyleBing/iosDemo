@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:CustomisedViews.xcodeproj">
+      location = "self:/Users/Kyle/Developer/iosDemo/iosDemo.xcodeproj">
    </FileRef>
 </Workspace>

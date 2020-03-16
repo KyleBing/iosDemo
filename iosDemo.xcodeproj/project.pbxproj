@@ -186,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		279F038E1EDC69EC0014B3B3 /* CustomisedViews */ = {
+		279F038E1EDC69EC0014B3B3 /* iosDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 279F03A11EDC69EC0014B3B3 /* Build configuration list for PBXNativeTarget "CustomisedViews" */;
+			buildConfigurationList = 279F03A11EDC69EC0014B3B3 /* Build configuration list for PBXNativeTarget "iosDemo" */;
 			buildPhases = (
 				279F038B1EDC69EC0014B3B3 /* Sources */,
 				279F038C1EDC69EC0014B3B3 /* Frameworks */,
@@ -198,7 +198,7 @@
 			);
 			dependencies = (
 			);
-			name = CustomisedViews;
+			name = iosDemo;
 			productName = CustomisedViews;
 			productReference = 279F038F1EDC69EC0014B3B3 /* iOS Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 279F038A1EDC69EC0014B3B3 /* Build configuration list for PBXProject "CustomisedViews" */;
+			buildConfigurationList = 279F038A1EDC69EC0014B3B3 /* Build configuration list for PBXProject "iosDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -244,7 +244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				279F038E1EDC69EC0014B3B3 /* CustomisedViews */,
+				279F038E1EDC69EC0014B3B3 /* iosDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -452,7 +452,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		279F038A1EDC69EC0014B3B3 /* Build configuration list for PBXProject "CustomisedViews" */ = {
+		279F038A1EDC69EC0014B3B3 /* Build configuration list for PBXProject "iosDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279F039F1EDC69EC0014B3B3 /* Debug */,
@@ -461,7 +461,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279F03A11EDC69EC0014B3B3 /* Build configuration list for PBXNativeTarget "CustomisedViews" */ = {
+		279F03A11EDC69EC0014B3B3 /* Build configuration list for PBXNativeTarget "iosDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				279F03A21EDC69EC0014B3B3 /* Debug */,
