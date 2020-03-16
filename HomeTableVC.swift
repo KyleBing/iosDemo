@@ -1,6 +1,6 @@
 //
 //  HomeTableVC.swift
-//  CustomisedViews
+//  iosDemo
 //
 //  Created by Kyle on 2017/5/29.
 //  Copyright © 2017年 KyleBing. All rights reserved.
@@ -28,9 +28,9 @@ class HomeTableVC: UITableViewController {
             (title: "Stack View",                identifier: "StackView",           subtitle: ""),
             (title: "Page View Controller",      identifier: "PageViewController",  subtitle: ""),
             (title: "Page View Inside",          identifier: "PageViewInside",      subtitle: ""),
-            (title: "Window Views",              identifier: "Customised View",     subtitle: "" ),
+            (title: "Window Views",              identifier: "Customized View",     subtitle: "" ),
             (title: "Button Stage",              identifier: "ButtonStage",         subtitle: ""),
-            (title: "Web VC",                    identifier: "WKWebview",           subtitle: "Web View Controller"),
+            (title: "Web VC",                    identifier: "WebVC",               subtitle: "Web View Controller"),
             (title: "Mapkit",                    identifier: "MapVC",               subtitle: "Gaode Map UNFINISHED"),
         ]),
         HomeListGroup(title: "User Notification", lists: [
@@ -57,10 +57,12 @@ class HomeTableVC: UITableViewController {
         if #available(iOS 13.0, *) {
             navigationController?.navigationBar.tintColor = Colors.navigationBarTintColor
         }
+        /*
         if #available(iOS 11.0, *) {
             // 大标题
             self.navigationController?.navigationBar.prefersLargeTitles = true
-        }
+        }*/
+        title = "iOS Demo"
         let center = UNUserNotificationCenter.current()
         center.removeAllDeliveredNotifications()
     }
@@ -85,6 +87,7 @@ class HomeTableVC: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let listItem = listGroups[indexPath.section].lists[indexPath.row]
         let destVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: listItem.identifier)
+        destVC.title = listItem.title
         navigationController?.pushViewController(destVC, animated: true)
     }
     

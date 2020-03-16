@@ -824,10 +824,10 @@
             </objects>
             <point key="canvasLocation" x="-1486" y="-165"/>
         </scene>
-        <!--CustomisedVC-->
+        <!--CustomizedVC-->
         <scene sceneID="hgE-Kc-RIC">
             <objects>
-                <viewController storyboardIdentifier="Customised View" id="KUg-Qg-FOR" customClass="CustomisedVC" customModule="CustomisedViews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Customized View" id="KUg-Qg-FOR" customClass="CustomizedVC" customModule="iOS_Demo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Hz-CL-mjt"/>
                         <viewControllerLayoutGuide type="bottom" id="Odx-4h-vjM"/>

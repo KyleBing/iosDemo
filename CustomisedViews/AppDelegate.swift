@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  CustomisedViews
+//  iosDemo
 //
 //  Created by Kyle on 2017/5/29.
 //  Copyright © 2017年 KyleBing. All rights reserved.

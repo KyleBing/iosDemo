@@ -58,7 +58,7 @@
 		277602331EF7CD8400E708FA /* UserNotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNotificationVC.swift; sourceTree = "<group>"; };
 		2776F5EF1F222A2C00562EF2 /* NavigationBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarVC.swift; sourceTree = "<group>"; };
 		278F08B1240AB3CA005DF5CC /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		279F038F1EDC69EC0014B3B3 /* CustomisedViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomisedViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279F038F1EDC69EC0014B3B3 /* iOS Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279F03921EDC69EC0014B3B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		279F03971EDC69EC0014B3B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		279F03991EDC69EC0014B3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		279F03901EDC69EC0014B3B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				279F038F1EDC69EC0014B3B3 /* CustomisedViews.app */,
+				279F038F1EDC69EC0014B3B3 /* iOS Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			);
 			name = CustomisedViews;
 			productName = CustomisedViews;
-			productReference = 279F038F1EDC69EC0014B3B3 /* CustomisedViews.app */;
+			productReference = 279F038F1EDC69EC0014B3B3 /* iOS Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -428,8 +428,8 @@
 				INFOPLIST_FILE = CustomisedViews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.kylebing.CustomisedViews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kylebing.iosDemo;
+				PRODUCT_NAME = "iOS Demo";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -443,8 +443,8 @@
 				INFOPLIST_FILE = CustomisedViews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.kylebing.CustomisedViews;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kylebing.iosDemo;
+				PRODUCT_NAME = "iOS Demo";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;

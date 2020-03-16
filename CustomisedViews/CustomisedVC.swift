@@ -1,6 +1,6 @@
 //
-//  CustomisedVC.swift
-//  CustomisedViews
+//  CustomizedVC.swift
+//  iosDemo
 //
 //  Created by Kyle on 2017-11-21.
 //  Copyright © 2017年 KyleBing. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustomisedVC: UIViewController {
+class CustomizedVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

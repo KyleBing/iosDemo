@@ -1,6 +1,6 @@
 //
 //  UserNotificationVC.swift
-//  CustomisedViews
+//  iosDemo
 //
 //  Created by Kyle on 2017/6/19.
 //  Copyright © 2017年 KyleBing. All rights reserved.
@@ -108,7 +108,7 @@ class UserNotificationVC: UIViewController, UNUserNotificationCenterDelegate {
         // content
         let content = UNMutableNotificationContent()
         content.title = "通知测试"
-        content.subtitle = "from CustomisedViews"
+        content.subtitle = "from CustomizedViews"
         content.body = "测试 UNNotification 的 IntervalNotification"
         content.badge = nil
         content.sound = .default

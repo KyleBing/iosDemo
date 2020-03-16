@@ -1,6 +1,6 @@
 //
 //  Person.swift
-//  CustomisedViews
+//  iosDemo
 //
 //  Created by Kyle on 2020/3/2.
 //  Copyright © 2020 KyleBing. All rights reserved.
