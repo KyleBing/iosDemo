@@ -17,6 +17,7 @@ class HomeTableVC: UITableViewController {
     
     let listGroups:[HomeListGroup] = [
         HomeListGroup(title: "UIKit", lists: [
+            (title: "Customized Views",          identifier: "Customized View",     subtitle: "customized views" ),
             (title: "ImagePicker",               identifier: "ImagePickerVC",       subtitle: ""),
             (title: "PickerView",                identifier: "PickerViewVC",        subtitle: ""),
             (title: "UIPasteBoard",              identifier: "UIPasteBoard",        subtitle: ""),
@@ -29,7 +30,6 @@ class HomeTableVC: UITableViewController {
             (title: "Stack View",                identifier: "StackView",           subtitle: ""),
             (title: "Page View Controller",      identifier: "PageViewController",  subtitle: ""),
             (title: "Page View Inside",          identifier: "PageViewInside",      subtitle: ""),
-            (title: "Window Views",              identifier: "Customized View",     subtitle: "" ),
             (title: "Button Stage",              identifier: "ButtonStage",         subtitle: ""),
             (title: "Web VC",                    identifier: "WebVC",               subtitle: "Web View Controller"),
             (title: "Mapkit",                    identifier: "MapVC",               subtitle: "Gaode Map UNFINISHED"),

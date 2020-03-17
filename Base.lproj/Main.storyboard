@@ -855,10 +855,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="J1u-r4-zRa">
-                                <rect key="frame" x="50" y="150" width="275" height="367"/>
+                                <rect key="frame" x="50" y="50" width="275" height="567"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewz-Fi-VaC">
-                                        <rect key="frame" x="57" y="0.0" width="161" height="183.5"/>
+                                        <rect key="frame" x="57" y="0.0" width="161" height="283.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <state key="normal" title="Pop Model VC"/>
                                         <connections>
@@ -866,7 +866,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-4G-kdO">
-                                        <rect key="frame" x="59" y="183.5" width="157" height="183.5"/>
+                                        <rect key="frame" x="59" y="283.5" width="157" height="283.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                         <state key="normal" title="Show Custom"/>
                                         <connections>
@@ -879,8 +879,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="J1u-r4-zRa" secondAttribute="trailing" constant="50" id="FZC-Oc-Op9"/>
-                            <constraint firstItem="J1u-r4-zRa" firstAttribute="top" secondItem="3Hz-CL-mjt" secondAttribute="bottom" constant="150" id="PTG-AN-PoI"/>
-                            <constraint firstItem="Odx-4h-vjM" firstAttribute="top" secondItem="J1u-r4-zRa" secondAttribute="bottom" constant="150" id="dn9-kR-f2q"/>
+                            <constraint firstItem="J1u-r4-zRa" firstAttribute="top" secondItem="3Hz-CL-mjt" secondAttribute="bottom" constant="50" id="PTG-AN-PoI"/>
+                            <constraint firstItem="Odx-4h-vjM" firstAttribute="top" secondItem="J1u-r4-zRa" secondAttribute="bottom" constant="50" id="dn9-kR-f2q"/>
                             <constraint firstItem="J1u-r4-zRa" firstAttribute="leading" secondItem="r6v-fp-Hg5" secondAttribute="leading" constant="50" id="fSF-Yw-sKi"/>
                         </constraints>
                     </view>
