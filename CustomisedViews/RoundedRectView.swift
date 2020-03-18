@@ -56,8 +56,6 @@ class RoundedRectView: UIView {
     }
     
     
-    
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = UIColor.clear

@@ -17,7 +17,10 @@ class ImagePickerVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Pick", style: .plain, target: self, action: #selector(pickAnImage))
+        let btnPick = UIBarButtonItem(title: "Pick", style: .plain, target: self, action: #selector(pickAnImage))
+        let btnLayerClip = UIBarButtonItem(title: "Clip", style: .plain, target: self, action: #selector(clipImage))
+        navigationItem.rightBarButtonItems = [btnLayerClip, btnPick]
+
         /// 2. 设置 picker 的 delegate 和 相关设置
         imagePicker.delegate = self
         imagePicker.sourceType = .photoLibrary
@@ -33,6 +36,40 @@ class ImagePickerVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
             print("UIImagePickerController: presented")
         }
     }
+    
+    @objc func clipImage() {
+//        imageView.layer.cornerRadius = 10 // 可以设置 view 的 radius
+        
+        if imageView.layer.mask != nil, let sublayers = imageView.layer.sublayers{
+            // 删除 mask 和 边框
+            imageView.layer.mask = nil
+            for layer in sublayers {
+                layer.removeFromSuperlayer()
+            }
+        } else {
+            // 添加 mask 和 边框
+            let frameHeight:CGFloat = 200
+            let frameEdge:CGFloat = 30
+            let frameRect = CGRect(x: frameEdge,
+                                   y: (imageView.frame.size.height - frameHeight)/2,
+                                   width: imageView.frame.size.width - frameEdge * 2,
+                                   height: frameHeight)
+            // add mask
+            let maskLayer = CAShapeLayer()
+            maskLayer.path = UIBezierPath(roundedRect: frameRect, cornerRadius: 10).cgPath
+            imageView.layer.mask = maskLayer
+            
+            // add a frame
+            let frameLayer = CAShapeLayer()
+            frameLayer.lineWidth = 3
+            frameLayer.fillColor = UIColor.clear.cgColor // calayer 默认填充颜色是纯黑色
+            frameLayer.strokeColor = UIColor.orange.cgColor
+            frameLayer.path = UIBezierPath(roundedRect: frameRect, cornerRadius: 10).cgPath
+            imageView.layer.addSublayer(frameLayer) // 添加 frameLayer 到最顶层 Layer
+        }
+        
+    }
+
     
     // MARK: - Image picker delegate
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -54,4 +91,8 @@ class ImagePickerVC: UIViewController, UIImagePickerControllerDelegate, UINaviga
             print("UIImagePickerController: dismissed")
         }
     }
+    
+    
+    
+    
 }
